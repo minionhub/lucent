@@ -1,0 +1,29 @@
+/* SplashScreen.css */
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #faf7ee7a; /* Adjust background color as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Arial', sans-serif; /* Replace with your font */
+    z-index: 9999;
+  }
+  
+  .spinner {
+    animation: spin 2s linear infinite;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40px; /* Adjust size as needed */
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
